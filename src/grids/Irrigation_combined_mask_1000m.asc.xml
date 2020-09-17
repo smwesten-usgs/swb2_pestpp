@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20200311</CreaDate><CreaTime>08245300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\arcgis\desktop10.7\ArcToolbox\Toolboxes\Conversion Tools.tbx\RasterToASCII" Date="20200311" Time="082453">RasterToASCII P:\0188\gis\Irrigation_Mask\combined_years_mask_1000m.tif P:\0188\gis\Irrigation_Mask\Irrigation_combined_mask_1000m.asc</Process></lineage></DataProperties></Esri></metadata>

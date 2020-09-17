@@ -1,0 +1,40 @@
+id,start_date,end_date,zone_grid_filename
+# 2013 all land uses:,,,
+1,2013-01-01,2013-01-31,additive_et_zones_1000m_2013.asc
+2,2013-02-01,2013-02-28,additive_et_zones_1000m_2013.asc
+3,2013-03-01,2013-03-31,additive_et_zones_1000m_2013.asc
+4,2013-04-01,2013-04-30,additive_et_zones_1000m_2013.asc
+5,2013-05-01,2013-05-31,additive_et_zones_1000m_2013.asc
+6,2013-06-01,2013-06-30,additive_et_zones_1000m_2013.asc
+7,2013-07-01,2013-07-31,additive_et_zones_1000m_2013.asc
+8,2013-08-01,2013-08-31,additive_et_zones_1000m_2013.asc
+9,2013-09-01,2013-09-30,additive_et_zones_1000m_2013.asc
+10,2013-10-01,2013-10-31,additive_et_zones_1000m_2013.asc
+11,2013-11-01,2013-11-30,additive_et_zones_1000m_2013.asc
+12,2013-12-01,2013-12-31,additive_et_zones_1000m_2013.asc
+# 2014 all land uses:,,,
+13,2014-01-01,2014-01-31,additive_et_zones_1000m_2014.asc
+14,2014-02-01,2014-02-28,additive_et_zones_1000m_2014.asc
+15,2014-03-01,2014-03-31,additive_et_zones_1000m_2014.asc
+16,2014-04-01,2014-04-30,additive_et_zones_1000m_2014.asc
+17,2014-05-01,2014-05-31,additive_et_zones_1000m_2014.asc
+18,2014-06-01,2014-06-30,additive_et_zones_1000m_2014.asc
+19,2014-07-01,2014-07-31,additive_et_zones_1000m_2014.asc
+20,2014-08-01,2014-08-31,additive_et_zones_1000m_2014.asc
+21,2014-09-01,2014-09-30,additive_et_zones_1000m_2014.asc
+22,2014-10-01,2014-10-31,additive_et_zones_1000m_2014.asc
+23,2014-11-01,2014-11-30,additive_et_zones_1000m_2014.asc
+24,2014-12-01,2014-12-31,additive_et_zones_1000m_2014.asc
+# 2015 all land uses:,,,
+25,2015-01-01,2015-01-31,additive_et_zones_1000m_2015.asc
+26,2015-02-01,2015-02-28,additive_et_zones_1000m_2015.asc
+27,2015-03-01,2015-03-31,additive_et_zones_1000m_2015.asc
+28,2015-04-01,2015-04-30,additive_et_zones_1000m_2015.asc
+29,2015-05-01,2015-05-31,additive_et_zones_1000m_2015.asc
+30,2015-06-01,2015-06-30,additive_et_zones_1000m_2015.asc
+31,2015-07-01,2015-07-31,additive_et_zones_1000m_2015.asc
+32,2015-08-01,2015-08-31,additive_et_zones_1000m_2015.asc
+33,2015-09-01,2015-09-30,additive_et_zones_1000m_2015.asc
+34,2015-10-01,2015-10-31,additive_et_zones_1000m_2015.asc
+35,2015-11-01,2015-11-30,additive_et_zones_1000m_2015.asc
+36,2015-12-01,2015-12-31,additive_et_zones_1000m_2015.asc

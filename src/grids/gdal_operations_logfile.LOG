@@ -1,0 +1,116 @@
+Tue Nov 19 11:26:19 MST 2019
+ 
+Shapefile name = ../../../data/project_GIS/MAP/MAP_SWB_area_with_expansion.shp
+Resolution = 1000
+Simulation start date = 01/01/2008
+Simulation end date = 12/31/2018
+Extents as returned from 'get_shapefile_extent.sh: 48816.021346 673395.538789 844298.223732 1661985.750587
+Extents have been rounded to conform to National Hydrologic Model grid dimensions and coordinates.
+Modified extents: 47955.0 673285.0 844955.0 1662285.0
+
+VERIFY THAT THE APPROPRIATE GDAL IS BEING RUN; SHOULD BE > version 2.4
+GDAL 2.3.3, released 2018/12/14
+
+Processing available water capacity grid.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/SOILS_GRIDS/AWC_ft_SSURGO_STATSGO_50m.tif [1/1] : 0Using internal nodata values (e.g. -3.40282e+38) for image /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/SOILS_GRIDS/AWC_ft_SSURGO_STATSGO_50m.tif.
+...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+Processing hydrologic soil grid.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/SOILS_GRIDS/HydGrp_SSURGO_STATSGO_50m.tif [1/1] : 0Using internal nodata values (e.g. -9999) for image /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/SOILS_GRIDS/HydGrp_SSURGO_STATSGO_50m.tif.
+...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+Subsetting land-use grids.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2008_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2008_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2009_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2009_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2010_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2010_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2011_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2011_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2012_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2012_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2013_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2013_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2014_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2014_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2015_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2015_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2016_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2016_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2017_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2017_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+ERROR 6: SetColorTable() only supported for Byte or UInt16 bands in TIFF format.
+Copying color table from /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2018_30m_cdls.img to new file.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/NASS_CROP_DATA_LAYER/2018_30m_cdls.img [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+Processing flow-direction grid.
+Creating output file that is 797P x 989L.
+Processing /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/HydroSheds/hydroshed_D8.vrt [1/1] : 0Using internal nodata values (e.g. -9) for image /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/HydroSheds/hydroshed_D8.vrt.
+Copying nodata values from source /lustre/projects/water/wiwsc/swb/data/NATIONAL_GEODATA/HydroSheds/hydroshed_D8.vrt to destination TEMP__FLOW_DIRECTION.tif.
+...10...20...30...40...50...60...70...80...90...100 - done.
+Input file size is 797, 989
+0...10...20...30...40...50...60...70...80...90...100 - done.
+recharge__1000m__MAP_expanded.ctl

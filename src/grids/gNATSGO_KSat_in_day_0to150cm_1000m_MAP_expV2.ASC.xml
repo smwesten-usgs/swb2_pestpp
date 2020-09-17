@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20200413</CreaDate><CreaTime>08271600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\arcgis\desktop10.7\ArcToolbox\Toolboxes\Conversion Tools.tbx\RasterToASCII" Date="20200413" Time="082716">RasterToASCII "MAP 1000m layers NEW\KSat_in_day_0to150cm_1000m_NHG_MAPV2.tif" G:\UMID_Data\0188_offline\gis\SOILS\gNATSGO_KSat_in_day_0to150cm_1000m_MAP_expV2.ASC</Process></lineage></DataProperties></Esri></metadata>
