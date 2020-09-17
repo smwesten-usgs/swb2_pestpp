@@ -27,5 +27,12 @@ In order to help keep the workspace tidy and the contents understandable, the fo
 | simulated values | `simulated_xxxx.txt` or `simulated_xxxx.csv`, where 'xxxx' can be the parameter name and possibly other useful metadata, such as original resolution. *These files are to contain model-generated values or derivatives from the modeled values obtained via postprocessing.* |
 | observed values | `observed_xxxx.txt` or `observed_xxx.csv`, where 'xxxx' can be the parameter name and possibly other metadata such as resolution or applicable date range. |
 | lookup tables | `lookup_table__xxxx.txt`, where 'xxxx' is one of 'irrigation' or 'landuse'. |
-| control file (swb2 or ppest) | `control_file__swb_xxxx.ctl` for a swb control file, and `control_file__ppest_xxxx.pst` for a pest++ control file; xxxx can be added to supply limited additional information. |
-|swbstats2 'zone period' file | `zone_period_file__xxxx.csv`, where 'xxxx' can be the parameter name and possibly some other useful metadata. |
+| control file (swb2) | `control_file__swb_xxxx.ctl` for a swb control file; xxxx can be added to supply limited additional information. |
+| swbstats2 'zone period' file | `zone_period_file__xxxx.csv`, where 'xxxx' can be the parameter name and possibly some other useful metadata. |
+| pest++ instruction file list | `pest_instruction_file_data.csv` |
+| pest++ observation file list | `pest_observation_file_data.csv` |
+| pest++ template file list    | `pest_template_file_data.csv`    |
+| pest++ parameter group data  | `pest_parameter_group_data.csv`; file must contain columns of data with header values: `pargpnme	inctyp derinc derinclb forcen derincmul dermthd splitthresh splitreldiff splitaction` |
+| pest++ parameter data        | `pest_parameter_data.csv`; file must contain columns of data with header values: `parnme partrans parchglim parval1 parlbnd parubnd pargp scale offset dercom` |
+
+Silly little change here.
