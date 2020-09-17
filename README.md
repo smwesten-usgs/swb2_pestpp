@@ -11,10 +11,11 @@ structure is:
 
 | Directory name    | Description                                                             |
 |-------------------|----------------------------------------------------------------------------------|
-| /jupyter          | jupyter notebooks aimed at pre and post processing files for use with pest       |
 | /master           | contains just the files needed to run a pest iteration; programmatically created |
 | /src              | template, instruction, and control files needed to run a pest optimization       |
 | /src/grids        | gridfiles needed to make a forward run of SWB, or zonefile grids needed for postprocessing |
+| /scr/tables       | Lookup tables for SWB in Excel Format                                            |
+| /src/jupyter      | jupyter notebooks aimed at pre and post processing files for use with pest       |
 
 Ideally, version control plus good commit messages will largely eliminate the need to create a host of similar files of varying provenance (e.g. lu_table_v1.txt, lu_table_v2.txt, etc.).
 
@@ -35,4 +36,4 @@ In order to help keep the workspace tidy and the contents understandable, the fo
 | pest++ parameter group data  | `pest_parameter_group_data.csv`; file must contain columns of data with header values: `pargpnme	inctyp derinc derinclb forcen derincmul dermthd splitthresh splitreldiff splitaction` |
 | pest++ parameter data        | `pest_parameter_data.csv`; file must contain columns of data with header values: `parnme partrans parchglim parval1 parlbnd parubnd pargp scale offset dercom` |
 
-Silly little change here.
+End.
